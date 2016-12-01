@@ -20,7 +20,7 @@ def cache_last_news
   end
 end
 configure do
-  static_ts = '20161022085907'
+  static_ts = '20161130164058'
   public_host = ENV['PUBLIC_HOST'] || 'https://tredamindmup.herokuapp.com/'
   set :earliest_supported_ios_version, (ENV["EARLIEST_IOS_VERSION"] && ENV["EARLIEST_IOS_VERSION"].to_f) || 1
   set :static_host, "#{public_host}/#{static_ts}"
